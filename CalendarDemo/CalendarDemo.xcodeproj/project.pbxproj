@@ -15,6 +15,7 @@
 		A57FC9C21D2D07F900CC3CC9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A57FC9C01D2D07F900CC3CC9 /* LaunchScreen.storyboard */; };
 		A57FC9CD1D2D07F900CC3CC9 /* CalendarDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A57FC9CC1D2D07F900CC3CC9 /* CalendarDemoTests.m */; };
 		A57FC9D81D2D07F900CC3CC9 /* CalendarDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A57FC9D71D2D07F900CC3CC9 /* CalendarDemoUITests.m */; };
+		A57FC9E81D2D0D4000CC3CC9 /* TTCalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = A57FC9E71D2D0D4000CC3CC9 /* TTCalendarView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		A57FC9D31D2D07F900CC3CC9 /* CalendarDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalendarDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A57FC9D71D2D07F900CC3CC9 /* CalendarDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalendarDemoUITests.m; sourceTree = "<group>"; };
 		A57FC9D91D2D07F900CC3CC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A57FC9E61D2D0D4000CC3CC9 /* TTCalendarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTCalendarView.h; sourceTree = "<group>"; };
+		A57FC9E71D2D0D4000CC3CC9 /* TTCalendarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTCalendarView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		A57FC9B11D2D07F900CC3CC9 /* CalendarDemo */ = {
 			isa = PBXGroup;
 			children = (
+				A57FC9E51D2D0BE100CC3CC9 /* CalendarView */,
 				A57FC9B51D2D07F900CC3CC9 /* AppDelegate.h */,
 				A57FC9B61D2D07F900CC3CC9 /* AppDelegate.m */,
 				A57FC9B81D2D07F900CC3CC9 /* ViewController.h */,
@@ -138,6 +142,15 @@
 				A57FC9D91D2D07F900CC3CC9 /* Info.plist */,
 			);
 			path = CalendarDemoUITests;
+			sourceTree = "<group>";
+		};
+		A57FC9E51D2D0BE100CC3CC9 /* CalendarView */ = {
+			isa = PBXGroup;
+			children = (
+				A57FC9E61D2D0D4000CC3CC9 /* TTCalendarView.h */,
+				A57FC9E71D2D0D4000CC3CC9 /* TTCalendarView.m */,
+			);
+			name = CalendarView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,6 +283,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A57FC9E81D2D0D4000CC3CC9 /* TTCalendarView.m in Sources */,
 				A57FC9BA1D2D07F900CC3CC9 /* ViewController.m in Sources */,
 				A57FC9B71D2D07F900CC3CC9 /* AppDelegate.m in Sources */,
 				A57FC9B41D2D07F900CC3CC9 /* main.m in Sources */,
